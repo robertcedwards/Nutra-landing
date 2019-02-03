@@ -1,0 +1,49 @@
+@import "settings";
+@import "foundation";
+
+header {
+  @include grid-row;
+  .logo {
+    @include grid-column(12);
+  }
+  nav {
+    span{
+      @include button(false,black,grey,hollow);
+    }
+  }
+}
+main {
+  @include grid-row;
+  section{
+    span{
+      @include grid-column(6);
+
+    }
+  }
+
+  section.callout{
+    @include grid-column(4);
+    @include card-container;
+
+    p{
+      @include card-section;
+      @include callout-style($primary-color);
+
+    }
+  }
+  #app {
+    @include grid-column(12);
+    h1{}
+    ul{
+      li{
+        @include grid-column(2);
+        @include card-container;
+      }
+    }
+  }
+  footer{
+    @include grid-column(12);
+    h4{@include horizontal-center;}
+  }
+
+}

@@ -1,0 +1,169 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.5.3
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+header {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto; }
+  header::before, header::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  header::after {
+    clear: both; }
+  header .logo {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      header .logo {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    header .logo, header .logo:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    header .logo:last-child:not(:first-child) {
+      float: right; }
+  header nav span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    padding: 0.85em 1em;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-family: inherit;
+    font-size: 0.9rem;
+    -webkit-appearance: none;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: hollow; }
+    [data-whatinput='mouse'] header nav span {
+      outline: 0; }
+    header nav span:hover, header nav span:focus {
+      background-color: grey;
+      color: hollow; }
+
+main {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto; }
+  main::before, main::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  main::after {
+    clear: both; }
+  main section span {
+    width: 50%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      main section span {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    main section span, main section span:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    main section span:last-child:not(:first-child) {
+      float: right; }
+  main section.callout {
+    width: 33.3333333333%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    background: #454b58;
+    box-shadow: none;
+    overflow: hidden;
+    color: #9D9C9C; }
+    @media print, screen and (min-width: 40em) {
+      main section.callout {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    main section.callout, main section.callout:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    main section.callout:last-child:not(:first-child) {
+      float: right; }
+    main section.callout > :last-child {
+      margin-bottom: 0; }
+    main section.callout p {
+      flex: 1 0 auto;
+      padding: 1rem;
+      background-color: #fbefe7;
+      color: #9D9C9C; }
+      main section.callout p > :last-child {
+        margin-bottom: 0; }
+  main #app {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      main #app {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    main #app, main #app:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    main #app:last-child:not(:first-child) {
+      float: right; }
+    main #app ul li {
+      width: 16.6666666667%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-bottom: 1rem;
+      border: 1px solid #e6e6e6;
+      border-radius: 0;
+      background: #454b58;
+      box-shadow: none;
+      overflow: hidden;
+      color: #9D9C9C; }
+      @media print, screen and (min-width: 40em) {
+        main #app ul li {
+          padding-right: 0.9375rem;
+          padding-left: 0.9375rem; } }
+      main #app ul li, main #app ul li:last-child:not(:first-child) {
+        float: left;
+        clear: none; }
+      main #app ul li:last-child:not(:first-child) {
+        float: right; }
+      main #app ul li > :last-child {
+        margin-bottom: 0; }
+  main footer {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      main footer {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    main footer, main footer:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    main footer:last-child:not(:first-child) {
+      float: right; }
+    main footer h4 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
